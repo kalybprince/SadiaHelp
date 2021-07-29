@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 80vw;
+    margin-left: 10%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav */
+
+.navBar {
+    flex: 1;
+    height: 10vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+.navTitle {
+    flex: 2;
+    background-color: lightpink;
+}
+.navLinks {
+    flex: 2;
+    background-color: lightskyblue;
+}
+.navButton {
+    flex: 1;
+    background-color: magenta;
+}
+ul {
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+ul li {
+    flex: 1;
+    list-style: none;
+}
+/* main box */
+
+.mainBox {
+    flex: 1;
+    margin-top: 30px;
+    height: 100vh;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+}
+.leftBox {
+    flex: 2;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+.leftBox-topBox {
+    flex: 2;
+    padding: 10px;
+    background-color: darkolivegreen;
+}
+.topBox-content {
+    background-color: lightpink;
+    margin: 2%;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.lTopBox-content1 {
+    flex: 1;
+    background-color:lemonchiffon;
+}
+.lTopBox-content2 {
+    flex: 1;
+    background-color:goldenrod;
+}
+.lTopBox-content3 {
+    flex: 1;
+    background-color:greenyellow;
+    display: flex;
+    flex-direction: row;
+}
+.inlineObject1 {
+    flex: 1;
+    background-color: mediumaquamarine;
+}
+.iconBox {
+    background-color:mediumvioletred;
+    width: 10px;
+    height: 10px;
+}
+.inlineObject2 {
+    flex: 5;
+    background-color: mediumslateblue;
+}
+.lTopBox-content4 {
+    flex: 1;
+    background-color:indianred;
+}
+.lTopBox-content5 {
+    flex: 1;
+    background-color:lavender;
+}
+
+.leftBox-bottomBox {
+    flex: 1;
+    background-color: darkslateblue;
+}
+.rightBox {
+    flex: 1;
+    margin-bottom: 20px;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+}
+.rightBox-topBox {
+    flex: 1;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: deeppink;
+}
+.rightBox-bottomBox {
+    flex: 2;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:deepskyblue;
+}
